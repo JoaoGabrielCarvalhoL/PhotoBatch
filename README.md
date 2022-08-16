@@ -1,5 +1,6 @@
 ﻿# PhotoBatch
 [USO]: PhotoBatch --[Rename|Scale|Convert|Resize] [Opções]
+    
     O PhotoBatch possui quatro modos de operação. Somente um modo pode estar ativo. 
     Para ativar um modo, use uma das seguintes flags: 	
     
@@ -36,13 +37,11 @@
     --Width=<N>  : Novo comprimento da imagem.
     --Height=<N> : Nova altura da imagem.
 
-
     Opções do modo Scale: 
     No modo Scale, cada arquivo selecionado será escalado uniformemente pelo fato especificado pelas seguintes opções.
     Note que N > 0 e será interpretado como um número em ponto flutuante. 
 
    --Amount=<N>  : Fato de escala a ser aplicado em cada imagem selecionada.
-
 
     Exemplos de uso: 
 	
